@@ -30,3 +30,6 @@ def main():
     with open('test/test.html', 'w', encoding='utf-8') as f:
         print(get(word)['raw_html'], file=f)
 
+
+if __name__ == '__main__':
+    main()
