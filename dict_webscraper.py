@@ -24,7 +24,7 @@ def get(word: str, site='Campridge'):
 
 
 def main():
-    """An look-up interface
+    """A look-up interface
     """
     word = input('Enter the word you want to look up: ')
     with open('test/test.html', 'w', encoding='utf-8') as f:
